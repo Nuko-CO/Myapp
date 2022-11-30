@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun rollDice() {
-        TODO("Not yet implemented")
+        val dice = Dice(6)
     }
 
     class Dice(private val numSides: Int) {
