@@ -1,7 +1,7 @@
 package com.example.myapp
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
@@ -9,5 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val rollButton: Button = findViewById(R.id.button)
+        rollButton.setOnClickListener {
+        }
     }
 }
