@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice() {
         val dice = Dice(6)
+        val diceRoll = dice.roll()
     }
 
     class Dice(private val numSides: Int) {
