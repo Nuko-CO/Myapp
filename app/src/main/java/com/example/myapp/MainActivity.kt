@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
 
         // Update the screen with the dice roll
         val diceImage: ImageView = findViewById(R.id.imageView)
-        diceImage.setImageResource(R.drawable.dice_2)
 
 
     }
