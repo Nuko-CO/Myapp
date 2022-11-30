@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         diceImage.setImageResource(drawableResource)
+        diceImage.contentDescription = diceRoll.toString()
 
     }
 
